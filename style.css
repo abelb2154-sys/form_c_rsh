@@ -1,0 +1,122 @@
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+*, body{
+box-sizing: border-box;
+font-family: "Comic Neue", cursive;
+}
+
+nav > a {
+  padding: 1.5vw;
+}
+
+.texto_titulo_acme{
+  margin: 1.5vw;
+}
+
+.fields{
+padding: 1.5vw;
+}
+
+#ename{
+  padding-left: 2.12vw;
+}
+
+#select_p{
+  padding-left: 0.87vw;
+}
+
+input[type="radio"]{
+   margin-left: 1.82vw;
+}
+
+.fields_p{
+ margin-top:-0.34vh;
+ margin-left: 1.62vw;
+}
+
+button[type="submit"]{
+  background-color: white;
+  border: 2px solid black;
+  margin-left: 1.93vw;
+}
+#footer_p{
+  margin-left: 1.62vw;
+
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+ #ename{
+  padding-left: 33px;
+  }
+#select_p{
+  padding-left: 40.5px;
+}
+#msg{
+  width: 157px;
+
+}
+
+}
+
+@media  (max-width: 600px) {
+ #ename{
+  padding-left: 33px;
+  }
+#select_p{
+  padding-left: 40.5px;
+}
+#msg{
+  width: 157px;
+
+}
+}
+
+@media  (min-width: 600px) {
+ #ename{
+  padding-left: 33px;
+  }
+#select_p{
+  padding-left: 40.5px;
+}
+#msg{
+  width: 157px;
+
+}
+}
